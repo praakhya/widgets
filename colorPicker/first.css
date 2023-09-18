@@ -1,0 +1,88 @@
+.bg{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("paintStain.jpg");
+    background-size: 100%;
+
+}
+#disp{
+    border: 5px ridge gold;
+    text-align: center;
+    font-family: 'Aboreto', cursive;
+    padding: 10px;
+}
+.form{
+    margin:10px;
+}
+label {
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+}
+h1 {
+    font-family: 'Rubik Distressed', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+#colDisp{
+    font-family: 'Special Elite', cursive;
+    font-weight: 200px;
+    font-size: 30px;
+}
+.card-off{
+    border-radius: 5px;
+    border: 2px solid transparent;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.255);
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 2px;
+    font-family: 'Mali', cursive;
+    font-size: 40px;
+}
+.card-on{
+    border-radius: 5px;
+    border: 2px solid white;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.255);
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    vertical-align: bottom;
+    font-family: 'Mali', cursive;
+    font-size: 40px;
+}
+.collect{
+    border: 2px dotted royalblue;
+    padding: 10px;
+    flex-grow: 1;
+    background-color: rgba(189, 241, 255, 0.621);
+}
+.card-box{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap:4px;
+}
+button {
+    background-color: lightblue;
+    border: 2px dotted rgb(0, 139, 139);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Special Elite', cursive;
+}
+.btns {
+    margin: 2px;
+}
+.content {
+    display:flex;
+    align-items: flex-start;
+    gap: 5px;
+    flex-direction: row;
+}
+/*
+font-family: 'Aboreto', cursive;
+font-family: 'Rubik Distressed', cursive;
+font-family: 'Special Elite', cursive;
+*/

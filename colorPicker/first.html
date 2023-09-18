@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Colour Picker</title>
+        <link rel="stylesheet" href="first.css">
+        <!--
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Rubik+Distressed&family=Special+Elite&display=swap" rel="stylesheet">
+        -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Mali:ital,wght@1,600&family=Permanent+Marker&family=Rubik+Distressed&family=Special+Elite&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="crayons.png">
+    </head>
+    <body class="bg" onload="initialize()">
+        <script src="first.js">
+        </script>
+        <h1> Colour Picker &#x1F58C</h1>
+        <div class="content">
+            <div class="picker">
+                <div id="disp">
+                    This box is coloured with
+                    <div id="colDisp" onclick="copyDivToClipboard()"></div>
+                </div>
+                <div class="form">
+                    <form>
+                        <label>Choose background color</label>
+                        <input id="colorBg" type="color" onclick="changeBgColor()">
+                        </br>
+                        <label>Choose text color</label>
+                        <input id="colorTx" type="color" onclick="changeTxColor()">
+                    </form>
+                </div>
+            </div>
+            
+            </br>
+            </br>
+            </br>
+            </br>
+            <div class="collect">
+                <div class="btns">
+                    <button onclick="addCard()">Add</button>
+                    <button onclick="delCards()">Delete</button>
+                    <button onclick="delAllCards()">Delete All</button>
+                </div>
+                <hr>
+                <div class="card-box">
+                    </br>
+                    </br>
+                    </br>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
